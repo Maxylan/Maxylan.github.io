@@ -124,7 +124,7 @@ body {
 	position: relative;
 	height: 1px;
 	width: 1px;
-	bottom: 152px;
+	bottom: 202px;
 	z-index: 5;
 }
 #modinfo-pos a{
@@ -132,22 +132,42 @@ body {
 }
 #page-two-head {
 	position: relative;
-	right: 420px;
+	right: 540px;
+	bottom: 25px;
 }
 #pagetwo-h1 {
 	font-family: Acme;
 	padding-top: -10px;
 }
+#modinfobg {
+	background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: 1090px;
+	left: -20px;
+	height: 700px;
+	width: 1420px;
+	border-radius: 20px;
+}
 #modinfo {
     margin: auto;
 	position: relative;
-	bottom: 20px;
-	right: 420px;
-	width: 480px;
+	bottom: 60px;
+	right: 50px;
 	padding: 1px 17px;
 	z-index: 1;
 	font-family: Acme;
 	font-size: 20px;
+	display: inline-block;
+}
+#modinfo p {
+	width: 480px;
+}
+#modinfo ul {
+	position: relative;
+	left: 490px;
+	bottom: 195px;
+	width: 700px;
+	text-align: left;
 }
 #flyers {
 	position: relative;
@@ -155,7 +175,14 @@ body {
 	bottom: 430px;
 }
 #img-container {
-	position: absolute;
+	position: relative;
+	bottom: 520px;
+	right: 260px;
+}
+#img-container #frametwo {
+	position: relative;
+	bottom: 100px;
+	right: 400px;
 }
 .page-three {
 	position: relative;
