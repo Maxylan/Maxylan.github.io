@@ -2,7 +2,11 @@
 	box-sizing: border-box;
 	max-width: 1920px;
 }
+div {
+	overflow: hidden;
+}
 body {
+	overflow: none;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-image: url("background3.png");
@@ -13,7 +17,6 @@ body {
 .page-one {
 	left: 0px;
 	right: 0px;
-	overflow: none;
 	height: 680px;
 }
 #home-pos {
@@ -111,20 +114,19 @@ body {
 
 .pagebreak-island {
 	position: absolute;
-	overflow: visible;
-	right: 40px;
+	right: 100px;
 	top: 200px;
+	overflow: visible;
 }
 .page-two {
-	left: 0px;
-	right: 0px;
-	top: 0px;
+	width: 1920px;
+	height: 680px;
 }
 #modinfo-pos {
 	position: relative;
 	height: 1px;
 	width: 1px;
-	bottom: 202px;
+	bottom: 192px;
 	z-index: 5;
 }
 #modinfo-pos a{
@@ -134,25 +136,30 @@ body {
 	position: relative;
 	right: 540px;
 	bottom: 25px;
+	overflow: visible;
 }
 #pagetwo-h1 {
 	font-family: Acme;
 	padding-top: -10px;
 }
+#linebreak-two {
+	margin-top: 25px;
+}
 #modinfobg {
 	background-color: rgba(255, 255, 255, 0.2);
 	position: absolute;
-	top: 1090px;
+	top: 1115px;
 	left: -20px;
 	height: 700px;
 	width: 1420px;
 	border-radius: 20px;
 }
 #modinfo {
+	overflow: visible;
     margin: auto;
 	position: relative;
 	bottom: 60px;
-	right: 50px;
+	right: 420px;
 	padding: 1px 17px;
 	z-index: 1;
 	font-family: Acme;
@@ -169,12 +176,12 @@ body {
 	width: 700px;
 	text-align: left;
 }
-#flyers {
-	position: relative;
-	left: 650px;
-	bottom: 430px;
+#flyers1 {
+	position: absolute;
+	right: 100px;
 }
 #img-container {
+	overflow: visible;
 	position: relative;
 	bottom: 520px;
 	right: 260px;
